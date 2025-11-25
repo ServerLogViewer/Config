@@ -1,0 +1,45 @@
+{
+
+  "All": {
+    "name": "Original",
+    "description": "All Log Output",
+    "type": "ALL"
+  },
+
+  "Server": {
+    "name": "Server",
+    "description": "General Server Logs",
+    "type": "DEFAULT"
+  },
+
+  "Chat": {
+    "name": "Chat",
+    "description": "Player Chat Logs",
+    "type": "PLAYERLIST"
+  },
+
+  "Commands": {
+    "name": "Commands",
+    "description": "Player Command Usage",
+    "type": "PLAYERLIST"
+  },
+
+  "Access": {
+    "name": "Access",
+    "description": "Login / Logout Info",
+    "type": "PLAYERLIST"
+  },
+
+  "CommandBlocks": {
+    "name": "Command Blocks",
+    "description": "Command Block Output",
+    "type": ""
+  },
+
+  "Errors": {
+    "name": "Errors",
+    "description": "Errors & Warnings",
+    "type": ""
+  }
+
+}
