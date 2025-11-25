@@ -1,0 +1,130 @@
+{
+
+  "skip": [
+
+    {
+      "find": "Ping",
+      "position": ""
+    }
+
+  ],
+
+
+  "regex": [
+
+    {
+      "tab": "",
+      "find": "",
+      "player": {
+        "regex": "",
+        "group": "",
+        "color": true
+      }
+    }
+
+  ],
+
+
+  "search": [
+
+    {
+      "tab": "Chat",
+      "find": "",
+      "position": "",
+      "player": {
+        "prefix": "<",
+        "suffix": ">",
+        "color": true
+      }
+    },
+
+    {
+      "tab": "Commands",
+      "find": " issued server command: ",
+      "player": {
+        "prefix": "INFO:] ",
+        "suffix": " issued",
+        "color": true
+      }
+    },
+    {
+      "tab": "Commands",
+      "find": " was denied access to command.",
+      "player": {
+        "prefix": "INFO]: ",
+        "suffix": " was",
+        "color": true
+      }
+    },
+    {
+      "tab": "Commands",
+      "find": "CommandBlock"
+    },
+
+    {
+      "tab": "Access",
+      "find": "UUID of player",
+      "player": {
+        "prefix": "player ",
+        "suffix": " is",
+        "color": true
+      }
+    },
+    {
+      "tab": "Access",
+      "find": " logged in with entity id ",
+      "player": {
+        "prefix": "",
+        "suffix": "",
+        "color": false
+      }
+    },
+    {
+      "tab": "Access",
+      "find": " left the game.",
+      "player": {
+        "prefix": "",
+        "suffix": "",
+        "color": false
+      }
+    },
+    {
+      "tab": "Access",
+      "find": " lost connection: ",
+      "player": {
+        "prefix": "",
+        "suffix": "",
+        "color": false
+      }
+    },
+    {
+      "tab": "Access",
+      "find": "You are banned from this server!",
+      "player": {
+        "prefix": "",
+        "suffix": "",
+        "color": false
+      }
+    },
+    {
+      "tab": "Access",
+      "find": "You are not whitelisted on this server!",
+      "player": {
+        "prefix": "",
+        "suffix": "",
+        "color": false
+      }
+    },
+
+    {
+      "tab": "Errors",
+      "find": "ERROR"
+    },
+    {
+      "tab": "Errors",
+      "find": "WARN"
+    }
+
+  ]
+
+}
