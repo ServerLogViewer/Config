@@ -1,0 +1,15 @@
+{
+
+  "CoolV1994": {
+    "pass_hash": "",
+    "pass_salt": "",
+    "group": "Admin",
+    "allowed_ips": [
+      "127.0.0.1"
+    ],
+    "permissions": [
+      "*"
+    ]
+  }
+
+}
