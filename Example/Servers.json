@@ -1,0 +1,85 @@
+{
+
+  "LogServer": {
+    "name": "Log Server",
+    "logviewer": {
+      "tabs": "Tabs.json",
+      "rules": "Rules/LogServer.json",
+      "update": 5
+    },
+    "server": {
+      "type": "LOGSERVER",
+      "host": "localhost",
+      "port": "25420",
+      "user": "admin",
+      "password": "demo",
+      "publicKey": "",
+      "ssl": false
+    }
+  },
+
+  "JsonAPI": {
+    "name": "JsonAPI",
+    "logviewer": {
+      "tabs": "Tabs.json",
+      "rules": "Rules/JsonAPI.json",
+      "update": 5
+    },
+    "server": {
+      "type": "JSONAPI",
+      "host": "localhost",
+      "port": 20060,
+      "user": "admin",
+      "password": "demo",
+      "salt": ""
+    }
+  },
+
+  "File": {
+    "name": "File + RCON",
+    "logviewer": {
+      "tabs": "Tabs.json",
+      "rules": "Rules/Server.json"
+    },
+    "file": {
+      "uri": "file://C:/Server/logs/latest.log"
+    },
+    "server": {
+      "type": "RCON",
+      "host": "localhost",
+      "port": 20075,
+      "user": "",
+      "password": "Rcon Password"
+    }
+  },
+
+  "FileWeb": {
+    "name": "File (Web)",
+    "logviewer": {
+      "tabs": "Tabs.json",
+      "rules": "Rules/Server.json",
+      "update": 5
+    },
+    "file": {
+      "uri": "http://localhost/Server/logs/latest.log",
+      "user": "admin",
+      "password": "demo"
+    }
+  },
+
+  "FileFTP": {
+    "name": "File (FTP)",
+    "logviewer": {
+      "tabs": "Tabs.json",
+      "rules": "Rules/Server.json",
+      "update": 5
+    },
+    "file": {
+      "uri": "ftp://localhost/Server/logs/latest.log",
+      "user": "admin",
+      "password": "demo",
+      "ssl": false
+    }
+  }
+
+}
