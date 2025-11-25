@@ -1,0 +1,16 @@
+{
+
+  "Default": {
+    "permissions": [
+      ""
+    ]
+  },
+
+  "Admin": {
+    "inherit": "Default",
+    "permissions": [
+      "*"
+    ]
+  }
+
+}
